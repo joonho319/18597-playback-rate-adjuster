@@ -1,2 +1,33 @@
+<!-- BE SURE TO UPDATE NAME AND LINK TO DOC -->
+
 # 18597-playback-rate-adjuster
-In this example, you will learn how to add a playback rate button to the Brightcove Player control bar, and use middleware to properly display the current time and video duration as you switch between playback speeds.
+For more information about this sample see: https://support.brightcove.com/brightcove-player-sample-playback-rate-adjuster.
+
+<p>The purpose and structure of files in this repo are:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Folder/Filename</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>index.html</td>
+      <td>All the application code, HTML, CSS and JavaScript, in a single file.</td>
+    </tr>
+    <tr>
+      <td>plugin/index.html</td>
+      <td>The browsable HTML page that contains the HTML code, and the link to the CSS and the include to the JavaScript.</td>
+    </tr>
+    <tr>
+      <td>plugin/plugin-name.js</td>
+      <td>The JavaScript for the plugin. An example, actual filename could be <strong>playback-adjuster.js</strong>.</td>
+    </tr>
+    <tr>
+      <td>plugin/plugin-name.css</td>
+      <td>The CSS for the plugin. An example, actual filename could be <strong>playback-adjuster.css</strong>.</td>
+    </tr>
+  </tbody>
+</table>
