@@ -56,3 +56,15 @@ const playbackrateAdjuster = function(player) {
 
 // Register the plugin with video.js.
 videojs.use('*', playbackrateAdjuster);
+
+videojs.getPlayer("myPlayerID").ready(function(){
+			// When the player is ready, get a reference to it
+			var myPlayer = this;
+			console.log("myPlayer",myPlayer)
+			// Define the playback rate options
+			options = {"playbackRates":[0.5, 1, 1.5, 2, 4]};
+			// Initialize the playback rate button
+			myPlayer.controlBar.playbackRateMenuButton = myPlayer.controlBar.addChild('PlaybackRateMenuButton', {
+      	playbackRates: options.playbackRates
+		  });
+    });
